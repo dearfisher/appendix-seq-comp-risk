@@ -18,7 +18,9 @@ sourceDir <- function(path, trace = TRUE, ...) {
         if(trace) cat("\n")
     }
 }
-sourceDir("https://github.com/paulowhite/appendix-seq-comp-risk/")
+
+# path to where Rfunctions have been copied
+sourceDir("path/to/Rfunctions/")
 ## }}}
 
 ## {{{ Create .Random.seed
